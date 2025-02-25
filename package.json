@@ -1,0 +1,22 @@
+{
+  "name": "playwrightauto",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --config cucumber.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.1.0",
+    "cucumber-pretty": "^6.0.1"
+  }
+}
